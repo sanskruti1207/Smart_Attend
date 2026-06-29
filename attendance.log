@@ -1,0 +1,846 @@
+2026-06-26 16:07:37,507 - DatabaseHelper - ERROR - Failed to connect to database at database/test_attendance.db: unable to open database file
+2026-06-26 16:07:37,507 - DatabaseHelper - ERROR - Error during database initialization: unable to open database file
+2026-06-26 16:07:58,520 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:07:58,523 - AttendancePredictor - INFO - Generating synthetic training data for attendance predictor...
+2026-06-26 16:07:58,859 - AttendancePredictor - INFO - Training predictor model (Decision Tree)...
+2026-06-26 16:07:58,941 - AttendancePredictor - INFO - Predictor model trained and saved to D:\SmartAttend\models\predictor_model.pkl
+2026-06-26 16:07:58,952 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-26 16:07:58,955 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-26 16:07:58,967 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-26 16:07:58,981 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-26 16:07:58,999 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-26 16:07:59,020 - FaceClassifier - INFO - Downloading YuNet face detection model...
+2026-06-26 16:08:00,414 - FaceClassifier - INFO - YuNet downloaded successfully.
+2026-06-26 16:08:00,415 - FaceClassifier - INFO - Downloading SFace face recognition model...
+2026-06-26 16:08:04,587 - FaceClassifier - INFO - SFace downloaded successfully.
+2026-06-26 16:08:04,776 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:08:04,776 - FaceClassifier - INFO - No trained KNN model found. System needs training.
+2026-06-26 16:17:17,937 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:17:17,950 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:17:18,192 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:17:18,193 - FaceClassifier - INFO - No trained KNN model found. System needs training.
+2026-06-26 16:17:18,213 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:17:18,213 - FaceClassifier - INFO - No trained KNN model found. System needs training.
+2026-06-26 16:17:25,761 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:17:25,983 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:17:25,983 - FaceClassifier - INFO - No trained KNN model found. System needs training.
+2026-06-26 16:18:53,305 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:18:53,548 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:18:53,549 - FaceClassifier - INFO - No trained KNN model found. System needs training.
+2026-06-26 16:20:41,985 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:20:41,989 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:20:42,001 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-26 16:20:42,003 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-26 16:20:42,018 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-26 16:20:42,033 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-26 16:20:42,048 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-26 16:20:42,359 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:20:42,359 - FaceClassifier - INFO - No trained KNN model found. System needs training.
+2026-06-26 16:21:10,200 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:21:10,448 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:21:10,449 - FaceClassifier - INFO - No trained KNN model found. System needs training.
+2026-06-26 16:21:10,450 - LivenessDetector - INFO - Downloading face_landmarker.task model...
+2026-06-26 16:21:11,433 - LivenessDetector - INFO - face_landmarker.task model downloaded successfully.
+2026-06-26 16:21:14,542 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:21:14,768 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:21:14,768 - FaceClassifier - INFO - No trained KNN model found. System needs training.
+2026-06-26 16:21:17,403 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:21:17,404 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Blink twice']
+2026-06-26 16:21:17,405 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:21:17,405 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head right', 'Smile']
+2026-06-26 16:21:17,414 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:22:20,673 - FaceCollector - INFO - Started registration session for Sanskruti (11) in D:\SmartAttend\dataset\11_Sanskruti.
+2026-06-26 16:22:28,352 - DatabaseHelper - INFO - Student Sanskruti (Roll: 11) added successfully.
+2026-06-26 16:22:29,915 - FaceClassifier - INFO - KNN Classifier trained successfully with 1 classes and 50 samples.
+2026-06-26 16:23:41,953 - DatabaseHelper - INFO - Student with Roll: 11 deleted successfully.
+2026-06-26 16:23:49,124 - StudentManager - INFO - Deleted dataset folder: D:\SmartAttend\dataset\11_Sanskruti
+2026-06-26 16:23:49,124 - FaceClassifier - WARNING - No student datasets found for training.
+2026-06-26 16:24:04,725 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:24:04,955 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:24:04,957 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:24:07,744 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:24:07,744 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Blink twice']
+2026-06-26 16:24:07,749 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:24:56,155 - FaceCollector - INFO - Started registration session for sanskruti (12) in D:\SmartAttend\dataset\12_sanskruti.
+2026-06-26 16:25:01,711 - DatabaseHelper - INFO - Student sanskruti (Roll: 12) added successfully.
+2026-06-26 16:25:03,242 - FaceClassifier - INFO - KNN Classifier trained successfully with 1 classes and 50 samples.
+2026-06-26 16:25:23,392 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:25:23,615 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:25:23,616 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:25:26,434 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:25:26,435 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Blink twice', 'Turn head left']
+2026-06-26 16:25:26,439 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:26:31,128 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\Sanskruti\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanskruti\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-06-26 16:26:31,655 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:26:31,859 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:26:31,861 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:26:34,653 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:26:34,654 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head left', 'Turn head right']
+2026-06-26 16:26:34,658 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:26:41,712 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Turn head left']
+2026-06-26 16:26:49,075 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 16:26:51,876 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-26 16:26:58,235 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:26:58,235 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-26 16:26:58,417 - DatabaseHelper - INFO - Attendance marked for Roll: 12 (sanskruti) as Absent on 2026-06-26.
+2026-06-26 16:26:59,940 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left', 'Turn head right']
+2026-06-26 16:28:18,559 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:28:18,820 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:28:18,822 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:28:21,620 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:28:21,620 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 16:28:21,625 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:30:32,880 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:30:33,118 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:30:33,119 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:30:35,922 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:30:35,922 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Blink twice', 'Smile']
+2026-06-26 16:30:35,927 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:30:39,853 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:30:40,077 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:30:40,079 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:30:40,137 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:30:40,138 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Smile', 'Blink twice']
+2026-06-26 16:30:40,143 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:31:55,571 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:31:55,803 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:31:55,804 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:31:58,601 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:31:58,602 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 16:31:58,607 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:32:08,352 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:32:08,557 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:32:08,558 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:32:08,613 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:32:08,614 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Turn head left']
+2026-06-26 16:32:08,618 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:32:57,700 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:32:57,927 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:32:57,929 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:33:00,716 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:33:00,716 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Blink twice', 'Turn head left']
+2026-06-26 16:33:00,720 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:33:48,186 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:33:48,385 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:33:48,386 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:33:51,171 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:33:51,171 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Blink twice', 'Turn head right']
+2026-06-26 16:33:51,176 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:33:55,059 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:33:55,315 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:33:55,316 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:33:55,379 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:33:55,380 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 16:33:55,385 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:34:40,406 - FaceCollector - INFO - Started registration session for Maitri (1) in D:\SmartAttend\dataset\1_Maitri.
+2026-06-26 16:34:46,104 - DatabaseHelper - INFO - Student Maitri (Roll: 1) added successfully.
+2026-06-26 16:34:48,970 - FaceClassifier - INFO - KNN Classifier trained successfully with 2 classes and 100 samples.
+2026-06-26 16:34:55,567 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Blink twice', 'Turn head right']
+2026-06-26 16:35:01,642 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:35:16,653 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:35:16,653 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 16:35:20,239 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:35:21,323 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-26 16:35:22,839 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 16:35:22,839 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-26 16:35:22,936 - DatabaseHelper - INFO - Attendance marked for Roll: 1 (Maitri) as Absent on 2026-06-26.
+2026-06-26 16:35:24,460 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 16:39:23,785 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:39:23,788 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:39:23,800 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-26 16:39:23,803 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-26 16:39:23,815 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-26 16:39:23,831 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-26 16:39:23,847 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-26 16:39:24,061 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:39:24,063 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:43:05,564 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\Sanskruti\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanskruti\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-06-26 16:43:06,150 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:43:06,412 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:43:06,414 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:43:09,199 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:43:09,199 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left', 'Turn head right']
+2026-06-26 16:43:09,205 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:45:09,439 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:45:09,696 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:45:09,698 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:45:12,475 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:45:12,476 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head right', 'Smile']
+2026-06-26 16:45:12,481 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:46:25,468 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:46:25,693 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:46:25,695 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:46:28,464 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:46:28,465 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Turn head left']
+2026-06-26 16:46:28,469 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:46:51,489 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:46:51,731 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:46:51,733 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:46:51,784 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:46:51,785 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 16:46:51,790 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:48:59,412 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left', 'Smile']
+2026-06-26 16:49:02,653 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-26 16:49:03,637 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:49:06,653 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 16:49:06,654 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-26 16:49:22,552 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Smile', 'Blink twice']
+2026-06-26 16:49:37,616 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:49:37,616 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Blink twice', 'Turn head left']
+2026-06-26 16:49:45,260 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 16:50:00,282 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:50:00,282 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head right', 'Turn head left']
+2026-06-26 16:50:15,360 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:50:15,360 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Blink twice', 'Turn head right']
+2026-06-26 16:50:24,921 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:51:00,524 - FaceCollector - INFO - Started registration session for Sanskrutiii (10) in D:\SmartAttend\dataset\10_Sanskrutiii.
+2026-06-26 16:51:06,100 - DatabaseHelper - INFO - Student Sanskrutiii (Roll: 10) added successfully.
+2026-06-26 16:51:10,637 - FaceClassifier - INFO - KNN Classifier trained successfully with 3 classes and 150 samples.
+2026-06-26 16:51:18,224 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left', 'Smile']
+2026-06-26 16:51:19,419 - asyncio - ERROR - Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\Sanskruti\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sanskruti\AppData\Local\Programs\Python\Python313\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-06-26 16:51:20,612 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-26 16:51:21,461 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:51:23,205 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 16:51:23,205 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-26 16:51:58,580 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:51:58,805 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:51:58,807 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:52:01,582 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:52:01,583 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Smile', 'Turn head right']
+2026-06-26 16:52:01,586 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:52:14,102 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Blink twice', 'Turn head left']
+2026-06-26 16:52:16,732 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-26 16:52:31,756 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:52:31,757 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 16:52:42,752 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:52:44,732 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-26 16:52:46,776 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 16:52:46,776 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-26 16:52:53,575 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:52:53,793 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:52:53,795 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:52:56,613 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:52:56,613 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left', 'Blink twice']
+2026-06-26 16:52:56,619 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:53:18,787 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left', 'Blink twice']
+2026-06-26 16:53:26,147 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-26 16:53:29,745 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:53:44,819 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:53:44,820 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head left', 'Turn head right']
+2026-06-26 16:53:59,873 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:53:59,873 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Smile', 'Turn head left']
+2026-06-26 16:54:09,553 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-26 16:54:11,913 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 16:54:13,356 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:54:13,356 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-26 16:54:21,350 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:54:21,569 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:54:21,571 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:54:25,395 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:54:25,395 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Smile', 'Blink twice']
+2026-06-26 16:54:25,399 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:54:32,103 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Blink twice', 'Turn head left']
+2026-06-26 16:54:36,934 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 16:54:51,998 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:54:51,998 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Smile', 'Turn head right']
+2026-06-26 16:55:07,050 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:55:07,051 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Turn head left']
+2026-06-26 16:55:08,275 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 16:55:23,294 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:55:23,295 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left', 'Blink twice']
+2026-06-26 16:55:38,315 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:55:38,315 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Blink twice', 'Turn head left']
+2026-06-26 16:55:46,310 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 16:55:46,523 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 16:55:46,526 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 16:55:49,311 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 16:55:49,312 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Blink twice']
+2026-06-26 16:55:49,316 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 16:55:54,948 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head right', 'Smile']
+2026-06-26 16:56:10,024 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:56:10,025 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 16:56:22,611 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:56:37,618 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:56:37,619 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Blink twice', 'Smile']
+2026-06-26 16:56:52,641 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:56:52,641 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left', 'Smile']
+2026-06-26 16:57:07,661 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:57:07,661 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Blink twice', 'Smile']
+2026-06-26 16:57:13,053 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 16:57:28,100 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:57:28,101 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Turn head left']
+2026-06-26 16:57:34,314 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 16:57:49,336 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:57:49,336 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head right', 'Smile']
+2026-06-26 16:58:04,339 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 16:58:04,340 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Blink twice', 'Turn head right']
+2026-06-26 17:00:50,961 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 17:00:51,216 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 17:00:51,218 - FaceClassifier - INFO - KNN model loaded successfully.
+2026-06-26 17:00:53,969 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 17:00:53,970 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Smile', 'Turn head left']
+2026-06-26 17:00:53,974 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 17:01:00,157 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head left', 'Turn head right']
+2026-06-26 17:01:15,202 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:01:15,202 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head left', 'Smile']
+2026-06-26 17:01:30,237 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:01:30,238 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head right', 'Turn head left']
+2026-06-26 17:01:45,279 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:01:45,280 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Blink twice', 'Turn head right']
+2026-06-26 17:01:48,557 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 17:01:58,570 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 17:01:58,573 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 17:01:58,583 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-26 17:01:58,586 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-26 17:01:58,598 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-26 17:01:58,610 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-26 17:01:58,624 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-26 17:01:58,847 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 17:01:58,849 - FaceClassifier - INFO - Model loaded successfully (Type: centroid).
+2026-06-26 17:02:03,590 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:02:03,590 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left', 'Smile']
+2026-06-26 17:02:18,624 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:02:18,624 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Blink twice', 'Turn head right']
+2026-06-26 17:03:02,422 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 17:03:02,424 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 17:03:02,646 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 17:03:02,648 - FaceClassifier - INFO - Model loaded successfully (Type: centroid).
+2026-06-26 17:03:02,654 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 17:03:02,655 - FaceClassifier - INFO - Model loaded successfully (Type: centroid).
+2026-06-26 17:03:05,496 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 17:03:05,497 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left', 'Blink twice']
+2026-06-26 17:03:05,498 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 17:03:05,498 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left', 'Blink twice']
+2026-06-26 17:03:05,505 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 17:03:05,510 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 17:04:28,647 - FaceCollector - INFO - Started registration session for sanskruti (11) in D:\SmartAttend\dataset\11_sanskruti.
+2026-06-26 17:04:35,217 - DatabaseHelper - INFO - Student sanskruti (Roll: 11) added successfully.
+2026-06-26 17:04:40,953 - FaceClassifier - INFO - Training Support Vector Machine (SVM) Classifier...
+2026-06-26 17:04:41,015 - FaceClassifier - INFO - Classifier trained successfully with 4 classes and 199 samples.
+2026-06-26 17:04:46,885 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 17:04:47,069 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 17:04:47,071 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-26 17:04:49,806 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 17:04:49,806 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left', 'Turn head right']
+2026-06-26 17:04:49,810 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 17:07:12,063 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 17:07:12,242 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 17:07:12,243 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-26 17:07:14,989 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 17:07:14,990 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left', 'Blink twice']
+2026-06-26 17:07:14,993 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 17:07:32,313 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head right', 'Turn head left']
+2026-06-26 17:07:47,319 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:07:47,319 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head right', 'Turn head left']
+2026-06-26 17:08:02,364 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:08:02,364 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Turn head left']
+2026-06-26 17:08:26,867 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:08:26,867 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head right', 'Turn head left']
+2026-06-26 17:08:41,886 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:08:41,887 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left', 'Turn head right']
+2026-06-26 17:08:56,899 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:08:56,899 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head left', 'Turn head right']
+2026-06-26 17:09:11,955 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:09:11,956 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head left', 'Smile']
+2026-06-26 17:09:26,976 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:09:26,977 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head left', 'Smile']
+2026-06-26 17:09:42,021 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:09:42,022 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left', 'Blink twice']
+2026-06-26 17:09:57,063 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:09:57,063 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Smile', 'Turn head right']
+2026-06-26 17:10:12,142 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:10:12,142 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head left', 'Turn head right']
+2026-06-26 17:10:27,192 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:10:27,192 - LivenessDetector - INFO - New challenges generated: ['Blink twice', 'Turn head left', 'Smile']
+2026-06-26 17:10:42,234 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:10:42,234 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Turn head left']
+2026-06-26 17:10:57,260 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:10:57,260 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left', 'Smile']
+2026-06-26 17:11:12,265 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:11:12,266 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Blink twice', 'Smile']
+2026-06-26 17:11:27,313 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:11:27,314 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Blink twice']
+2026-06-26 17:11:42,337 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:11:42,338 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Blink twice', 'Turn head right']
+2026-06-26 17:11:57,365 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:11:57,365 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Blink twice', 'Turn head right']
+2026-06-26 17:12:12,406 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:12:12,406 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Blink twice']
+2026-06-26 17:12:27,438 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:12:27,439 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Blink twice', 'Turn head left']
+2026-06-26 17:12:42,496 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:12:42,496 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Blink twice']
+2026-06-26 17:12:57,549 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:12:57,550 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Blink twice']
+2026-06-26 17:12:58,247 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 17:13:13,251 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:13:13,251 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Blink twice', 'Turn head left']
+2026-06-26 17:13:26,940 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 17:13:41,961 - LivenessDetector - INFO - Challenge timeout. Resetting challenges.
+2026-06-26 17:13:41,962 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Smile', 'Turn head left']
+2026-06-26 17:14:40,798 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 17:14:41,015 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 17:14:41,017 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-26 17:14:43,762 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 17:14:43,762 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Turn head left']
+2026-06-26 17:14:43,767 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 17:15:41,044 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Blink twice', 'Turn head left']
+2026-06-26 17:15:44,046 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-26 17:17:22,614 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 17:17:22,835 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 17:17:22,837 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-26 17:17:25,588 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 17:17:25,589 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right', 'Blink twice']
+2026-06-26 17:17:25,597 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 20:37:18,875 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 20:37:21,000 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 20:37:21,004 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-26 20:37:23,758 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 20:37:23,759 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right', 'Smile']
+2026-06-26 20:37:23,765 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 20:38:51,336 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 20:38:51,340 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 20:38:51,388 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-26 20:38:51,390 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-26 20:38:51,407 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-26 20:38:51,428 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-26 20:38:51,448 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-26 20:38:51,729 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 20:38:51,731 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-26 20:40:34,060 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 20:40:34,063 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 20:40:34,077 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-26 20:40:34,080 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-26 20:40:34,095 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-26 20:40:34,111 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-26 20:40:34,126 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-26 20:40:34,331 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 20:40:34,333 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-26 20:41:52,645 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-26 20:41:53,058 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-26 20:41:53,061 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-26 20:41:56,035 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-26 20:41:56,035 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left']
+2026-06-26 20:41:56,045 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-26 20:42:09,068 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left']
+2026-06-26 20:42:12,819 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-26 20:42:13,281 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-26 20:42:13,281 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-26 20:42:13,442 - DatabaseHelper - INFO - Attendance marked for Roll: 11 (sanskruti) as Absent on 2026-06-26.
+2026-06-26 20:42:14,993 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left']
+2026-06-29 11:59:57,874 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 11:59:58,235 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 11:59:58,240 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 11:59:59,662 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 11:59:59,930 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 11:59:59,933 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:00:01,890 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:00:01,890 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right']
+2026-06-29 12:00:01,894 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:00:01,894 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right']
+2026-06-29 12:00:01,903 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:05:07,807 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:05:07,810 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:05:07,821 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-29 12:05:07,823 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-29 12:05:07,834 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-29 12:05:07,846 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-29 12:05:07,857 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-29 12:05:08,042 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:05:08,044 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:14:16,264 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:14:16,486 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:14:16,489 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:14:19,288 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:14:19,288 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Smile']
+2026-06-29 12:14:19,295 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:14:40,027 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left']
+2026-06-29 12:14:43,114 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-29 12:14:49,951 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-29 12:14:49,952 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-29 12:14:50,112 - DatabaseHelper - INFO - Attendance marked for Roll: 10 (Sanskrutiii) as Absent on 2026-06-29.
+2026-06-29 12:14:51,631 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right']
+2026-06-29 12:17:34,601 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:17:34,849 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:17:34,851 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:17:37,579 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:17:37,579 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left']
+2026-06-29 12:17:37,582 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:20:15,468 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:20:15,470 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:20:15,478 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-29 12:20:15,480 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-29 12:20:15,492 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-29 12:20:15,504 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-29 12:20:15,515 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-29 12:20:15,683 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:20:15,685 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:23:04,022 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:23:04,228 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:23:04,230 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:23:06,973 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:23:06,973 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right']
+2026-06-29 12:23:06,976 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:24:08,427 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:24:08,620 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:24:08,623 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:24:11,377 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:24:11,378 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left']
+2026-06-29 12:24:11,381 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:25:19,130 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:25:19,311 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:25:19,312 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:25:22,062 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:25:22,063 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left']
+2026-06-29 12:25:22,067 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:27:53,875 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:27:53,878 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:27:53,888 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-29 12:27:53,890 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-29 12:27:53,900 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-29 12:27:53,915 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-29 12:27:53,927 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-29 12:27:54,131 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:27:54,135 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:30:18,508 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:30:18,771 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:30:18,773 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:30:21,537 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:30:21,537 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right']
+2026-06-29 12:30:21,543 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:31:55,676 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Smile']
+2026-06-29 12:31:59,498 - LivenessDetector - INFO - Challenge 'Turn head right' completed successfully.
+2026-06-29 12:32:01,720 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-29 12:32:01,720 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-29 12:32:01,872 - DatabaseHelper - INFO - Attendance marked for Roll: 11 (sanskruti) as Absent on 2026-06-29.
+2026-06-29 12:32:03,394 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Turn head left']
+2026-06-29 12:42:16,453 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:42:16,456 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:42:16,463 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-29 12:42:16,465 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-29 12:42:16,475 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-29 12:42:16,486 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-29 12:42:16,495 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-29 12:42:16,660 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:42:16,662 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:44:40,763 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:44:41,026 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:44:41,028 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:44:43,777 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:44:43,778 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Smile']
+2026-06-29 12:44:43,781 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:45:14,492 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left']
+2026-06-29 12:45:17,179 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-29 12:45:19,595 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-29 12:45:19,595 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-29 12:45:19,716 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:19,870 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:20,003 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:20,141 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:20,261 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:20,388 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:20,519 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:20,661 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:20,788 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:20,913 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:21,041 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:21,168 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:21,300 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:21,442 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:21,568 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:21,695 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:21,828 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:21,947 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:22,074 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:22,207 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:22,332 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:22,471 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:22,615 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:22,741 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:22,871 - DatabaseHelper - INFO - Roll: 10 attendance already marked for 2026-06-29.
+2026-06-29 12:45:22,997 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:23,129 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:23,266 - DatabaseHelper - INFO - Roll: 10 attendance already marked for 2026-06-29.
+2026-06-29 12:45:23,398 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:23,524 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:23,643 - DatabaseHelper - INFO - Roll: 10 attendance already marked for 2026-06-29.
+2026-06-29 12:45:23,777 - DatabaseHelper - INFO - Roll: 10 attendance already marked for 2026-06-29.
+2026-06-29 12:45:23,918 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:24,043 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:24,179 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:24,312 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:24,447 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:24,573 - DatabaseHelper - INFO - Roll: 10 attendance already marked for 2026-06-29.
+2026-06-29 12:45:24,699 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:24,827 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:24,955 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:25,084 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:25,213 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:25,342 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:25,468 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:25,590 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:25,725 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:25,853 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:25,968 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:26,106 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:26,241 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:26,374 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:26,493 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:26,618 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:26,733 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:26,858 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:26,989 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:27,123 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:27,267 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:27,407 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:27,550 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:27,673 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:27,800 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:27,927 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:28,064 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:28,204 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:28,326 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:28,455 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:28,588 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:28,730 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:28,871 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:29,004 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:29,130 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:29,260 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:29,399 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:29,524 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:29,649 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:29,778 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:29,911 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:30,047 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:30,186 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:30,319 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:30,445 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:30,567 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:30,689 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:30,819 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:30,948 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:31,075 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:31,217 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:31,337 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:31,469 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:31,591 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:31,716 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:31,850 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:31,990 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:32,133 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:32,298 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:32,459 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:32,607 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:32,726 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:32,853 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:32,979 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:33,137 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:33,283 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:33,447 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:33,587 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:33,730 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:33,862 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:33,995 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:34,131 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:34,267 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:34,399 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:34,524 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:34,656 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:34,791 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:34,939 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:35,076 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:35,211 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:35,330 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:35,455 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:35,575 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:35,701 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:35,824 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:35,960 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:36,103 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:36,235 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:36,362 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:36,501 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:36,622 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:36,751 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:36,886 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:37,026 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:37,142 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:37,279 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:37,416 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:37,538 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:37,688 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:37,825 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:37,963 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:38,093 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:38,216 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:38,344 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:38,492 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:38,623 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:38,748 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:38,889 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:39,028 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:39,155 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:39,284 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:39,424 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:39,552 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:39,693 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:39,847 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:39,981 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:40,131 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:40,274 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:40,397 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:40,522 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:40,650 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:40,769 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:40,898 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:41,041 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:41,175 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:41,312 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:41,435 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:41,555 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:41,677 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:41,799 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:41,933 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:42,068 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:42,224 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:42,378 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:42,509 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:42,646 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:42,784 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:42,924 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:43,057 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:43,182 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:45:43,315 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:46:37,826 - AttendanceMarker - INFO - Exported attendance to CSV: D:\SmartAttend\attendance\attendance_all.csv and Excel: D:\SmartAttend\attendance\attendance_all.xlsx
+2026-06-29 12:47:36,013 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:47:36,169 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:47:36,171 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:47:38,972 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:47:38,972 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left']
+2026-06-29 12:47:38,977 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:48:12,576 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:48:12,766 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:48:12,768 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:48:15,569 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:48:15,570 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left']
+2026-06-29 12:48:15,574 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:49:09,171 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:49:09,358 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:49:09,360 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:49:12,167 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:49:12,168 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left']
+2026-06-29 12:49:12,173 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:50:29,141 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:50:29,358 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:50:29,360 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:50:32,122 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:50:32,122 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right']
+2026-06-29 12:50:32,127 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:51:14,465 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:51:14,614 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:51:14,615 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:51:17,388 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:51:17,389 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Turn head right']
+2026-06-29 12:51:17,393 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:54:29,244 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:54:29,247 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:54:29,255 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-29 12:54:29,256 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-29 12:54:29,267 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-29 12:54:29,278 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-29 12:54:29,288 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-29 12:54:29,454 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:54:29,456 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:58:40,364 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 12:58:40,674 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 12:58:40,677 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 12:58:43,495 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 12:58:43,495 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right']
+2026-06-29 12:58:43,500 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 12:59:11,185 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Smile']
+2026-06-29 12:59:15,195 - LivenessDetector - INFO - Challenge 'Turn head left' completed successfully.
+2026-06-29 12:59:16,939 - LivenessDetector - INFO - Challenge 'Smile' completed successfully.
+2026-06-29 12:59:16,940 - LivenessDetector - INFO - All liveness challenges completed successfully.
+2026-06-29 12:59:17,071 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:17,208 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:17,341 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:17,477 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:17,611 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:17,754 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:17,897 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:18,025 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:18,155 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:18,297 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:18,435 - DatabaseHelper - INFO - Roll: 11 attendance already marked for 2026-06-29.
+2026-06-29 12:59:18,583 - DatabaseHelper - INFO - Attendance marked for Roll: 12 (sanskruti) as Absent on 2026-06-29.
+2026-06-29 12:59:20,106 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Smile']
+2026-06-29 13:01:02,951 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 13:01:02,955 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 13:01:02,968 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-29 13:01:02,971 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-29 13:01:02,985 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-29 13:01:03,003 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-29 13:01:03,021 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-29 13:01:03,305 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 13:01:03,307 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 13:01:40,778 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 13:01:40,964 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 13:01:40,966 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 13:01:43,764 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 13:01:43,764 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head left']
+2026-06-29 13:01:43,769 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 13:34:18,734 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 13:34:18,921 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 13:34:18,923 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 13:34:21,686 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 13:34:21,687 - LivenessDetector - INFO - New challenges generated: ['Turn head right', 'Smile']
+2026-06-29 13:34:21,691 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 13:38:36,364 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 13:38:36,584 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 13:38:36,627 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 13:38:39,377 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 13:38:39,386 - LivenessDetector - INFO - New challenges generated: ['Smile', 'Turn head right']
+2026-06-29 13:38:39,391 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 13:41:50,436 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 13:41:50,439 - AttendancePredictor - INFO - Predictor model loaded successfully.
+2026-06-29 13:41:50,450 - DatabaseHelper - INFO - Student Test User (Roll: 999) added successfully.
+2026-06-29 13:41:50,452 - DatabaseHelper - WARNING - Student with Roll Number 999 already exists.
+2026-06-29 13:41:50,464 - DatabaseHelper - INFO - Student details updated for Roll: 999.
+2026-06-29 13:41:50,480 - DatabaseHelper - INFO - Attendance marked for Roll: 999 (Test User Modified) as Present on 2026-06-26.
+2026-06-29 13:41:50,493 - DatabaseHelper - INFO - Roll: 999 attendance already marked for 2026-06-26.
+2026-06-29 13:41:50,802 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 13:41:50,805 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 13:44:35,432 - DatabaseHelper - INFO - Database tables initialized successfully.
+2026-06-29 13:44:35,653 - FaceClassifier - INFO - OpenCV YuNet and SFace models initialized successfully.
+2026-06-29 13:44:35,655 - FaceClassifier - INFO - Model loaded successfully (Type: svm).
+2026-06-29 13:44:38,434 - LivenessDetector - INFO - MediaPipe FaceLandmarker task initialized successfully.
+2026-06-29 13:44:38,435 - LivenessDetector - INFO - New challenges generated: ['Turn head left', 'Smile']
+2026-06-29 13:44:38,439 - AttendancePredictor - INFO - Predictor model loaded successfully.
